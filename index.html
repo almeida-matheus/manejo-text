@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Manejo Text</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/doc.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="py-3 text-center">
+            <img src="./assets/doc.png" width="50"> 
+            <h2 class="pt-3 font-weight-bold">MANEJO TEXT</h2>
+        </div>
+
+        <div class="textarea-container row justify-content-between text-left">
+
+            <div class="textarea-div form-group col-sm-5 flex-column d-flex">
+
+                <label for="before-text" class="form-label">Antes</label>
+                <textarea class="form-control" id="before-text" rows="17" cols="0" placeholder="..."></textarea>
+                <span class="lead mt-2">Quantidade de caracteres:<b> 0</b></span>
+
+            </div>
+
+            <div class="arrow col-sm-2 d-flex flex-row justify-content-center align-items-center">
+                <a href="#"onclick="">
+                    <i class="fas fa-long-arrow-alt-right fa-3x"></i>
+                </a>
+            </div>
+
+            <div class="textarea-div form-group col-sm-5 flex-column d-flex">
+                <label for="after-text" class="form-label">Depois</label>
+                <textarea class="form-control" id="after-text" rows="17" cols="0" placeholder="..."></textarea>
+            </div>
+
+        </div>
+
+        <h2 class="pt-3 font-weight-bold">Transformar</h2>
+        <label class="container-radio">Texto (\n) em lista
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container-radio">Texto ( ) em lista
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container-radio">CSV (,) em Tabela Markdown
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+
+    </div>
+
+    <footer>
+        <p>Manejo Text © 2021  <a class="footer__link" href="#">
+            <i class="fab fa-github-square"></i> Github</a> 
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
